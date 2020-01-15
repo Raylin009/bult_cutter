@@ -1,0 +1,19 @@
+{
+  "name": "bult_cutter",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raylin009/bult_cutter.git"
+  },
+  "author": "Ray Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raylin009/bult_cutter/issues"
+  },
+  "homepage": "https://github.com/Raylin009/bult_cutter#readme"
+}
