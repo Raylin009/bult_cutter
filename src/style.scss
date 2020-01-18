@@ -1,0 +1,46 @@
+html, body, div, h1, img{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+}
+
+.left {
+  background: #185a9d;
+  color:#efefef;
+  background-image: linear-gradient(to left top, #43cea2 , #185a9d);
+  opacity: 0.85;
+  height: 100vh;
+  width: 50vw;
+  float: left;
+  position: fixed;
+  overflow: hidden;
+  text-align: center;
+
+.left-inner{
+  height: 20vh;
+  width: 30vw;
+  margin: 40vh auto;
+}
+
+}
+
+.right {
+  height: fit-content;
+  width: 50vw;
+  float: right;
+  overflow: scroll;
+
+  .right-inner {
+    margin: 5vw;
+  }
+}
+
+li {
+  height: fit-content;
+}
