@@ -70,7 +70,7 @@ const resumeData = [
         timeSt: '2017',
         timeEnd: '2018',
         content: [
-          'Computer Aided Design and Drafting(Creo 4, SOLIDWORKS, AutoCAD)',
+          'Computer Aided Design and Drafting (Creo 4, SOLIDWORKS, AutoCAD)',
         ],
       },
     ],

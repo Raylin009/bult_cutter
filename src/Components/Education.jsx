@@ -1,21 +1,19 @@
 import React from 'react';
 
-const Education = () => (
+const Education = ({data}) => (
   <div className="resume-blocks">
-    <h3>Education</h3>
-    <p>
-      <b>Hack Reactor at Galvanize </b>
-      <i>2019 - 2019</i>
-      <br></br>
-      Advanced Full-Stack Software Engineering Immersive Program
-      <b>De Anza College</b>
-      <i>2017 - 2018</i>
-      <br></br>
-      Computer Aided Design and Drafting
-      <br></br>
-      (Creo 4, SOLIDWORKS, and AutoCAD)
-
-    </p>
+    <div className={`resume-catagotry ${data.name}`}>
+      <h4>{data.name}</h4>
+      <div className={`${data.name}-resume`}>
+        {data.content.map((item, index)=>(
+          <div key={`${data.name}.0.${index}`}>
+            <div>{item.name}</div>
+            {item.content.map((description, index)=> (<p key={`${data.name}.0.0.${index}`}>{description}</p>))}
+            <i>{`${item.timeSt} - ${item.timeEnd}`}</i>
+          </div>
+        ))}
+      </div>
+    </div>
   </div>
 );
 
