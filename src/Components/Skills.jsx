@@ -1,21 +1,16 @@
 import React from 'react';
 
-const Skills = () => (
-  <div className="resume-blocks">
-    <h3>Skills</h3>
-    <p>
-      <b>Languages</b>
-      JavaScript, SQL, HTML,CSS
-      <br></br>
-      <b>Frameworks</b>
-      React, Express, Jest, Enzyme, Mocha, Chai, MVC
-      <br></br>
-      <b>Databases</b>
-      PostgreSQL, MySQL, MongoDB
-      <br></br>
-      <b>Tools, Services, and Libraries</b>
-      AWS, Node, EC2, AJAX/HTTP, REST API, jQuery, Underscore, Docker, Loader IO, NGINX, Artillery, New Relic
-    </p>
+const Skills = ({data}) => (
+  <div className={`resume-catagotry ${data.name}`}>
+    <h4>{data.name}</h4>
+    <div className={`${data.name}-resume`}>
+      {data.content.map((item, index)=>(
+        <div key={`${data.name}.0.${index}`}>
+          <strong>{item.name}</strong>
+          <p>{item.content.join(', ')}</p>
+        </div>
+      ))}
+    </div>
   </div>
 );
 

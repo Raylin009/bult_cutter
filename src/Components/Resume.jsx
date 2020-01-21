@@ -13,7 +13,7 @@ const Resume = () => (
     {/* <ResumeBlock data={ resumeData }/> */}
 
     <Intro data={resumeData[0]}/>
-    {/* <Skills /> */}
+    <Skills data={resumeData[1]}/>
     {/* <Education /> */}
     {/* <Projects /> */}
     {/* <Experience /> */}

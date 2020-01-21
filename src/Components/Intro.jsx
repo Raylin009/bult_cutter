@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Intro = ({data}) => (
-  <div className={`resume-catagotry-${data.name}`}>
+  <div className={data.name}>
     <h4>{data.name}</h4>
-    <div>
+    <div className={`${data.name}-resume`}>
       {data.content.map((items, index) => (<p key={`${data.name}-${index}`}>{items}</p>))}
     </div>
   </div>
