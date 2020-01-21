@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = ({data}) => (
-  <div className={`resume-catagotry ${data.name}`}>
+  <div className={data.name}>
     <h4>{data.name}</h4>
     <div className={`${data.name}-resume`}>
       {data.content.map((item, index)=>(

@@ -15,7 +15,7 @@ const Resume = () => (
     <Intro data={resumeData[0]}/>
     <Skills data={resumeData[1]}/>
     <Education data={resumeData[2]}/>
-    {/* <Projects /> */}
+    <Projects date={resumeData[3]}/>
     {/* <Experience /> */}
     {/* <div>Download PDF</div> */}
   </div>
