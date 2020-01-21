@@ -12,7 +12,7 @@ const Resume = () => (
     {/* {console.log(resumeData)} */}
     {/* <ResumeBlock data={ resumeData }/> */}
 
-    <Intro />
+    <Intro data={resumeData[0]}/>
     {/* <Skills /> */}
     {/* <Education /> */}
     {/* <Projects /> */}

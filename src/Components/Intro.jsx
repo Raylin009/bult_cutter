@@ -2,9 +2,9 @@ import React from 'react';
 
 const Intro = ({data}) => (
   <div className={`resume-catagotry-${data.name}`}>
-    {/* <h4>{data.title}</h4> */}
+    <h4>{data.name}</h4>
     <div>
-      {/* {data.content.map((items) => (<p>{items}</p>))} */}
+      {data.content.map((items, index) => (<p key={`${data.name}-${index}`}>{items}</p>))}
     </div>
   </div>
 );
