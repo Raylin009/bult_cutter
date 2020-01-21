@@ -6,7 +6,7 @@ resumeData[
 
 const resumeData = [
   {
-    title: 'Intro',
+    name: 'Intro',
     timeSt: null,
     timeEnd: null,
     content: [
@@ -14,12 +14,12 @@ const resumeData = [
     ],
   },
   {
-    title: 'Skills',
+    name: 'Skills',
     timeSt: null,
     timeEnd: null,
     content: [
       {
-        title: 'Languages',
+        name: 'Languages',
         timeSt: null,
         timeEnd: null,
         content: [
@@ -27,7 +27,7 @@ const resumeData = [
         ],
       },
       {
-        title: 'Libraries & Frameworks',
+        name: 'Libraries & Frameworks',
         timeSt: null,
         timeEnd: null,
         content: [
@@ -35,7 +35,7 @@ const resumeData = [
         ],
       },
       {
-        title: 'Database',
+        name: 'Database',
         timeSt: null,
         timeEnd: null,
         content: [
@@ -43,7 +43,7 @@ const resumeData = [
         ],
       },
       {
-        title: 'Tools & Services',
+        name: 'Tools & Services',
         timeSt: null,
         timeEnd: null,
         content: [ 
@@ -53,12 +53,12 @@ const resumeData = [
     ],
   },
   {
-    title: 'Educations',
+    name: 'Educations',
     timeSt: null,
     timeEnd: null,
     content: [
       {
-        title: 'Hack Reactor @ Galvanize',
+        name: 'Hack Reactor @ Galvanize',
         timeSt: '2019',
         timeEnd: '2019',
         content: [
@@ -66,7 +66,7 @@ const resumeData = [
         ],
       },
       {
-        title: 'De Anza College',
+        name: 'De Anza College',
         timeSt: '2017',
         timeEnd: '2018',
         content: [
@@ -76,17 +76,17 @@ const resumeData = [
     ],
   },
   {
-    title: 'Projects',
+    name: 'Projects',
     timeSt: null,
     timeEnd: null,
     content: [
       {
-        title: 'Open Chair, restaurant reservation service',
+        name: 'Open Chair, restaurant reservation service',
         timeSt: null,
         timeEnd: null,
         content: [
           {
-            title: 'Software Developer',
+            name: 'Software Developer',
             timeSt: null,
             timeEnd: 'SEP 2019',
             content: [
@@ -101,12 +101,12 @@ const resumeData = [
         ],
       },
       {
-        title: "Pristine, Man's fashion service",
+        name: "Pristine, Man's fashion service",
         timeSt: null,
         timeEnd: null,
         content: [
           {
-            title: 'Font End Developer',
+            name: 'Font End Developer',
             timeSt: null,
             timeEnd: 'JUL 2019',
             content: [
@@ -119,12 +119,12 @@ const resumeData = [
         ],
       },
       {
-        title: 'GHRSEA Express, online shopping site',
+        name: 'GHRSEA Express, online shopping site',
         timeSt: null,
         timeEnd: null,
         content: [
           {
-            tiile: 'Software Developer',
+            name: 'Software Developer',
             timeSt: null,
             timeEnd: 'MAY 2019',
             content: [
@@ -140,12 +140,12 @@ const resumeData = [
     ],
   },
   {
-    title: 'Experience',
+    name: 'Experience',
     timeSt: null,
     timeEnd: null,
     content: [
       {
-        title: 'Project/Operations Manager - Information Operations',
+        name: 'Project/Operations Manager - Information Operations',
         timeSt: 'JAN 2015',
         timeEnd: 'Present',
         content: [
