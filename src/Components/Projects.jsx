@@ -1,8 +1,23 @@
 import React from 'react';
 
-const Projects = () => (
-  <div className="resume-blocks">
-    <h3>Projects</h3>
+const Projects = ({data}) => (
+  <div className={data.name}>
+    <h4>{data.name}</h4>
+    <ul className="resume-content">
+      {data.content.map((p) => (
+        <li>
+          <div>{p.name}</div>
+          <ul>
+            {p.content.map((role) => (
+              <li>
+                {role.content.map((des) => ( des.content ))}
+              </li>
+            ))}
+          </ul>
+        </li>
+        
+      ))}
+    </ul>
     <ul>
       <li>
         <h4>Open Chair, restaurant reservation service</h4>
