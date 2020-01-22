@@ -1,8 +1,3 @@
-/*
-resumeData[
-  catagory
-]
- */
 
 const resumeData = [
   {

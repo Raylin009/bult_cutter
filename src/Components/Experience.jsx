@@ -1,16 +1,21 @@
 import React from 'react';
 
-const Experience = () => (
-  <div className="resume-blocks">
-    <h3>Experience</h3>
-    <ul>
-      <h4>Project/Operations Manager - Information Operations</h4>
-      <i>U.S. Army Reserve JAN 2015 - Present</i>
-      <ul>
-        <li>Represented the organization as a unit liaison to corporate consumers and senior leaders.</li>
-        <li>Coordinated operational electronic warfare, cyber warfare, psychological operations and civil affairs assets and weapon systems.</li>
-        <li>Led a team of 13 people on remote assignments while coordinating logistical supplies with host organization.</li>
-      </ul>
+const Experience = ({data}) => (
+  <div className={data.name}>
+    <h4>{data.name}</h4>
+    <ul className="resume-content">
+      {data.content.map((p, index) => ( 
+        <li key={`${data.name}.${index}`}>
+          <div>{p.name}</div>
+          <span>{`${p.timeSt} - ${p.timeEnd}`}</span>
+          <ul>
+            {p.content.map((description, i) => ( 
+              <li key={`${data.name}.${index}.${i}`}>{description}</li>
+            ))}
+          </ul>
+        </li>
+        
+      ))}
     </ul>
   </div>
 );

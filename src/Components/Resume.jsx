@@ -4,7 +4,7 @@ import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Experience from './Experience.jsx';
 import Education from './Education.jsx';
-// import ResumeBlock from './ResumeBlock.jsx';
+import ResumeBlock from './ResumeBlock.jsx';
 const { resumeData } = require('../../server/resumeData.js');
 
 const Resume = () => (
@@ -16,7 +16,7 @@ const Resume = () => (
     <Skills data={resumeData[1]}/>
     <Education data={resumeData[2]}/>
     <Projects data={resumeData[3]}/>
-    {/* <Experience /> */}
+    <Experience data={resumeData[4]}/>
     {/* <div>Download PDF</div> */}
   </div>
 )
