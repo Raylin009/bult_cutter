@@ -6,8 +6,10 @@ const Skills = ({data}) => (
     <div className="resume-content">
       {data.content.map((item, index)=>(
         <div key={`${data.name}.0.${index}`}>
-          <strong>{item.name}</strong>
-          <p>{item.content.join(', ')}</p>
+          <p>
+            <strong className="subtitle">{`${item.name}: `}</strong>
+            {item.content.join(', ')}
+          </p>
         </div>
       ))}
     </div>

@@ -48,7 +48,7 @@ const resumeData = [
     ],
   },
   {
-    name: 'Educations',
+    name: 'Education',
     timeSt: null,
     timeEnd: null,
     content: [
@@ -71,7 +71,7 @@ const resumeData = [
     ],
   },
   {
-    name: 'Projects',
+    name: 'Project',
     timeSt: null,
     timeEnd: null,
     content: [
