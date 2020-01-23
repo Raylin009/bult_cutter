@@ -7,7 +7,7 @@ const Skills = ({data}) => (
       {data.content.map((item, index)=>(
         <div key={`${data.name}.0.${index}`}>
           <p>
-            <strong className="subtitle">{`${item.name}: `}</strong>
+            <strong className="subtitle">{`${item.name}:  `}</strong>
             {item.content.join(', ')}
           </p>
         </div>
