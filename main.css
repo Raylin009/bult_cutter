@@ -1,6 +1,10 @@
-html, body, div, h1, img {
+html, body, div, h1, h4, img, p {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.3px; }
 
 .container {
   height: 100vh;
@@ -29,8 +33,53 @@ html, body, div, h1, img {
   float: right;
   overflow: scroll; }
   .right .right-inner {
-    margin: 5vw; }
+    margin: 5vw;
+    display: block; }
+    .right .right-inner > div {
+      display: inherit;
+      margin-bottom: 50px; }
+      .right .right-inner > div h4 {
+        width: 20%;
+        margin: 0px;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: #2A54F5;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(45deg, #2A54F5 0%, #33E5BB 100%); }
+      .right .right-inner > div .resume-content {
+        width: 80%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0px; }
+        .right .right-inner > div .resume-content > div {
+          margin: 0px 0px 10px 0px; }
 
 li {
   height: fit-content; }
+
+.subtitle {
+  font-weight: 700; }
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5; }
+
+.left-inner h1 {
+  margin: 3vh 0px; }
+
+.left-inner > h1, .left-inner div {
+  font-weight: 500; }
+
+.social-link {
+  margin-top: 30px; }
+  .social-link a > i {
+    margin: 10px;
+    font-size: 24px;
+    color: #fff; }
 
