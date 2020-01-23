@@ -14,7 +14,6 @@ const Resume = () => (
     <Education data={resumeData[2]}/>
     <Projects data={resumeData[3]}/>
     <Experience data={resumeData[4]}/>
-    {/* <div>Download PDF</div> */}
   </div>
 )
 
