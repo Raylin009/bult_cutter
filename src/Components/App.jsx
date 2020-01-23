@@ -11,13 +11,13 @@ const App = () => (
         </div>
         <div className="social-link">
           <a href="https://www.instagram.com/raylin009/">
-            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+            <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
           </a>
           <a href="https://github.com/Raylin009/">
-            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+            <i className="fa fa-github fa-lg" aria-hidden="true"></i>
           </a>
           <a href="https://www.linkedin.com/in/ray-lin/">
-            <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+            <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>
           </a>
         </div>
       </div>
