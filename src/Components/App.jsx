@@ -7,7 +7,7 @@ const App = () => (
     <div className="left">
       <div className="left-inner">
         <h1>Hi, I'm Ray</h1>
-        <div>Software engineering base in the <br></br> Bay Area/San Fransico, CA <br></br>I graduated from Hack Reactor @ Galvanize
+        <div>Software engineering base in the Bay Area/San Fransico, CA <br></br>I graduated from Hack Reactor @ Galvanize
         </div>
         <div className="social-link">
           <a href="https://www.instagram.com/raylin009/">
