@@ -26,11 +26,13 @@ a {
   overflow: hidden;
   text-align: center;
   display: block; }
-  .left .left-inner {
-    height: 20vh;
-    width: 30vw;
-    margin: 40vh auto;
-    display: block; }
+
+.left-inner {
+  height: 20vh;
+  width: 30vw;
+  margin: 40vh auto 0px auto;
+  max-width: 75vw;
+  display: block; }
 
 .right {
   height: fit-content;
@@ -115,6 +117,8 @@ ul {
     float: none;
     width: 100%;
     position: relative; }
+  .left-inner {
+    width: fit-content; }
   .right {
     float: none;
     width: 100%;
@@ -125,7 +129,7 @@ ul {
 @media only screen and (max-width: 600px) {
   .right .right-inner div h4 {
     display: block;
-    width: 30%;
+    width: fit-content;
     margin-bottom: 20px;
     font-size: 1em; }
   .resume-content {
