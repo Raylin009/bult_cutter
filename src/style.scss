@@ -31,9 +31,6 @@ a {
   overflow: hidden;
   text-align: center;
   display: block;
-  // display: grid;
-  // grid-template-columns: 1fr 60vw 1fr;
-  // grid-template-rows: 1fr 50vh 1fr;
 }
 
 .left-inner{
@@ -42,8 +39,6 @@ a {
   margin: 40vh auto 0px auto;
   max-width: 75vw;
   display: block;
-  // grid-column: 2/3;
-  // grid-row: 2/3;
 }
 
 .right {
@@ -167,6 +162,10 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
+  .left-inner {
+    margin-top: 30vh;
+  }
+
   .right .right-inner div h4 {
     display: block;
     width: fit-content;
