@@ -1,4 +1,6 @@
-# Bult_Cutter
-Personal Website nicked named "Operation Bult Cutter"
+# Welcome to Ray's React Resume Page!
 
-"The chains of habit are too weak to be felt until they are too strong to be broken" -Samuel Johnson
+You can view this repo [https://Raylin009.github.io/bult_cutter](https://Raylin009.github.io/bult_cutter)
+
+
+
