@@ -7,7 +7,7 @@ const App = () => (
     <div className="left">
       <div className="left-inner">
         <h1>Hi, I'm Ray</h1>
-        <div>Software engineer base in the Bay Area/San Fransico, CA looking for oppertunity where every it find takes me
+        <div>Software engineer base in the California looking for new and exciting opportunity!
         </div>
         <div className="social-link">
           <a href="https://github.com/Raylin009/bult_cutter">
