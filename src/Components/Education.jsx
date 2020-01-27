@@ -6,9 +6,11 @@ const Education = ({data}) => (
     <div className="resume-content">
       {data.content.map((item, index)=>(
         <div key={`${data.name}.0.${index}`}>
-          <div className="subtitle">{item.name}</div>
+          <div className="subtitle">
+            <a>{item.name}</a>
+            <div className='duration' >{`${item.timeSt} - ${item.timeEnd}`}</div>
+          </div>
           {item.content.map((description, index)=> (<p key={`${data.name}.0.0.${index}`}>{description}</p>))}
-          <i>{`${item.timeSt} - ${item.timeEnd}`}</i>
         </div>
       ))}
     </div>

@@ -89,6 +89,13 @@ li {
 
 .subtitle {
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  & > a {
+    width: 14em;
+  }
 }
 
 ul {
@@ -136,6 +143,11 @@ ul {
   background-color: #f5f5f5;
   border-radius: 5px;
   transition: all 0.3s ease;
+}
+
+.duration {
+  font-weight: 500;
+  color: #aaa;
 }
 
 @media only screen and (max-width: 1000px) {
