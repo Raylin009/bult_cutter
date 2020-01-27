@@ -5,7 +5,7 @@ const resumeData = [
     timeSt: null,
     timeEnd: null,
     content: [
-      'Army Non-Commissioned Officer transitioning to Software Development. Experienced in React, NodeJS, and Restful API development.',
+      'I am a Army Non-Commissioned Officer transitioning to Software Development. Experienced in React, NodeJS, and RESTful API development.',
     ],
   },
   {
@@ -30,7 +30,7 @@ const resumeData = [
         ],
       },
       {
-        name: 'Database',
+        name: 'Databases',
         timeSt: null,
         timeEnd: null,
         content: [
@@ -80,7 +80,7 @@ const resumeData = [
         timeSt: null,
         timeEnd: null,
         content: [
-          'Triple module service request capacity from 500 to 1500 requests per second by implementing NGINX load balancer across 6 AWS EC2 instances',
+          'Tripled module service request capacity from 500 to 1500 requests per second by implementing NGINX load balancer across 6 AWS EC2 instances',
           'Reduced query time by migrating development level MySQL database to production level MongoDB',
           'Built RESTful API for image carousel module using Express',
           'Decreased query time by 80% through de-normalizing and re-indexing database',
