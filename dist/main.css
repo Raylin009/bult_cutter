@@ -123,6 +123,9 @@ ul {
   font-weight: 500;
   color: #aaa; }
 
+.Education .subtitle {
+  margin-bottom: 5px; }
+
 @media only screen and (max-width: 1000px) {
   .left {
     float: none;
